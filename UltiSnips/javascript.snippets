@@ -1,9 +1,9 @@
 # React & JSX
-snippet <> "place a open tag and closed" w
-<$1></$2>
+snippet <> "- Place a open tag and closed" w
+<${1:}></$1>
 endsnippet
 
-snippet div "Plain div" b
+snippet div "- Plain div" b
 <div></div>
 endsnippet
 
@@ -12,13 +12,13 @@ snippet divc "Place a div using class" b
 endsnippet
 
 snippet div# "<div> with ID & class" w
-<div`!p snip.rv=' id="' if t[1] else ""`${1:name}`!p snip.rv = '"' if t[1] else ""``!p snip.rv=' class="' if t[2] else ""`${2:name}`!p snip.rv = '"' if t[2] else ""`>
+<div`!p snip.rv=' id="' if t[1] else ""`${1:name}`!p snip.rv = '"' if t[1] else ""``!p snip.rv=' className="' if t[2] else ""`${2:name}`!p snip.rv = '"' if t[2] else ""`>
 	${0:${VISUAL}}
 </div>
 endsnippet
 
 snippet div. "<div> with class" w
-<div`!p snip.rv=' class="' if t[1] else ""`${1:name}`!p snip.rv = '"' if t[1] else ""`>
+<div`!p snip.rv=' className="' if t[1] else ""`${1:name}`!p snip.rv = '"' if t[1] else ""`>
 	${0:${VISUAL}}
 </div>
 endsnippet
