@@ -1,6 +1,6 @@
 # Vim React Html Snippets
 
-A Vim snippet library for React in ES6. This plugin only provides the html(jsx)
+A Vim   -  library for React in ES6. This plugin only provides the html(jsx)
 snippets if you are searching for snippets when creating the react components
 structures take a look in this project:
 
@@ -25,30 +25,30 @@ Plug 'SirVer/ultisnips'
 
 ## Usage
 
-As any other snippet you use specific codes for autocompletion. For this library
+As any other   -  you use specific codes for autocompletion. For this library
 it is basic the html tag name.
 
 #### Skeleton
 
-snippet <> "place a open tag and closed with multiple cursors" w
-snippet div "Plain div" b
-snippet divc "Place a div using className" b
-snippet div# "<div> with ID & className" w
-snippet div. "<div> with className" w
-snippet a "Link" w
-snippet address "<address>" w
-snippet b "<b>" w
-snippet button "<button>"
-snippet img "place a <img>"
-snippet li "place a list" w
-snippet ol "place a <ol>"
-snippet dl "place a <dl>"
-snippet p "paragraph" w
-snippet select "Select Box" w
-snippet strong "<strong>" w
-snippet table "HTML <table>" w
-snippet span "<span>" w
-snippet span# "<span> with ID & className" w
-snippet span. "<span> with className" w
-snippet cn "<span> with className" w
-snippet cn "place a className" w
+  - `<> "place a open tag and closed with multiple cursors"`
+  - `div "Plain div"`
+  - `divc "Place a div using className"`
+  - `div# "<div> with ID & className"`
+  - `div. "<div> with className"`
+  - `a "Link"`
+  - `address "<address>"`
+  - `b "<b>"`
+  - `button "<button>"`
+  - `img "place a <img>"`
+  - `li "place a list"`
+  - `ol "place a <ol>"`
+  - `dl "place a <dl>"`
+  - `p "paragraph"`
+  - `select "Select Box"`
+  - `strong "<strong>"`
+  - `table "HTML <table>"`
+  - `span "<span>"`
+  - `span# "<span> with ID & className"`
+  - `span. "<span> with className"`
+  - `cn "<span> with className"`
+  - `cn "place a className"`
